@@ -17,5 +17,13 @@ Data <- read.csv("data/Data_Tables_Criminal_Incidents_Visualisation_Year_Ending_
 ```{r}
   ggplot(Data,aes(x = "Year" , y = "Incidents.Recorded")) +
   geom_line()
+
+```{r}
+mtcar <- mtcars
+
+```
+
+```{r}
+ggplot(mtcars, aes(x = mpg, y = ))
 ```
 
