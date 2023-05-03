@@ -4,3 +4,18 @@ author: "Rachitha Werake"
 date: "2023-05-03"
 output: html_document
 ---
+```{r}
+library(ggplot2)
+library(tidyverse)
+```
+
+
+```{r Data Preparation}
+Data <- read.csv("data/Data_Tables_Criminal_Incidents_Visualisation_Year_Ending_December_2019.csv")
+```
+
+```{r}
+  ggplot(Data,aes(x = "Year" , y = "Incidents.Recorded")) +
+  geom_line()
+```
+
