@@ -4,3 +4,16 @@ author: "Rachitha Werake"
 date: "2023-05-03"
 output: html_document
 ---
+```{r}
+library(ggplot2)
+library(tidyverse)
+```
+
+```{r}
+mtcar <- mtcars
+```
+
+```{r}
+ggplot(mtcars, aes(x = mpg, y = ))
+```
+
